@@ -158,4 +158,5 @@ def main(q, q0, q1):
                 print(*j)
             print()
 
+
 main(Qt, Qt0, Qt1)
