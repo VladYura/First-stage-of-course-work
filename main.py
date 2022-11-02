@@ -37,9 +37,11 @@ def main(names, start):
         for i in out:
             print(i)
 
+    final_ans = super_last_func(out, dict_out)
     print()
-    for i in super_last_func(out, dict_out):
+    for i in final_ans:
         print(i)
 
+    return final_ans
 
-main(input_addictions, start_tree)
+
